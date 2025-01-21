@@ -1,0 +1,16 @@
+{
+  "presets": [["env", {
+    "debug": false,
+    "modules": false,
+    "test": {
+      "plugins" : ["dynamic-import-node"]
+    }
+  }],  "es2015", "stage-0", "react"],
+  "plugins": [
+    "react-hot-loader/babel",
+    "syntax-dynamic-import",
+    "dynamic-import-node",
+    "transform-class-properties",
+    "transform-decorators-legacy"
+  ]
+}

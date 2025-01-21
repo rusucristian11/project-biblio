@@ -1,0 +1,65 @@
+@import '../../styles/base';
+
+.sign-up-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: linear-gradient($color-dark-purple 15%, $color-almost-white 15%);
+  .logo {
+    width: 150px;
+    height: 60px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    filter: invert(1);
+  }
+  .register-form {
+    padding: 1.5rem 0.6rem;
+    width:75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: $color-white;
+    border-radius: 5px;
+    .form-title {
+      font-size: 30px;
+      font-weight: bold;
+    }
+    .personal-details {
+      width: 100%;
+      .first-form-subtitle {
+        font-size: $size-subtitles;
+        font-weight: bold;
+        margin-bottom: $size-small;
+      }
+    }
+    .your-address {
+      width: 100%;
+      .second-form-subtitle {
+        font-size: $size-subtitles;
+        font-weight: bold;
+        margin-bottom: $size-small;
+      }
+    }
+    .terms-conditions {
+      width: 100%;
+      .third-form-subtitle {
+        font-size: $size-subtitles;
+        font-weight: bold;
+        margin-bottom: $size-small;
+      }
+      .radio-button-accept {
+        display: flex;
+        flex-direction: row;
+      }
+    }
+    .register-login {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
+

@@ -1,0 +1,127 @@
+@import '../../styles/base';
+
+.shared-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient($color-dark-purple 33%, $color-almost-white 33%);
+  min-height: 80vh;
+  width: 99.5%;
+  .top-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    width: 75%;
+    margin-top: 2rem;
+
+    .back-settings {
+      display: flex;
+      align-items: center;
+      .back-button {
+        width: 2rem;
+        height: 2rem;
+        filter: invert(1);
+      }
+      .back {
+        margin-left: 0.5rem;
+        color: white;
+        text-decoration: none;
+      }
+    }
+    .manage-links {
+      font-size: 2.5rem;
+      margin-bottom: 2.5rem;
+      margin-top: 1rem;
+      filter: invert(1);
+      font-weight: bold;
+    }
+  }
+  .shared-links-container {
+    padding: 1.5rem 0.6rem;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: $color-white;
+    border-radius: 5px;
+    .shared-links-title {
+      font-size: 2rem;
+      font-weight: bold;
+      margin-bottom: 1rem;
+    }
+    .shared-link {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      .img-link-for {
+        display: flex;
+        .img {
+          width: 3rem;
+          height: 3rem;
+        }
+        .link-for {
+          margin-bottom: 1rem;
+          margin-left: 1rem;
+          height: 3rem;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          .link {
+            color: $color-light-blue;
+            width: 100%;
+          }
+
+          .for {
+
+          }
+        }
+      }
+      .delete-link {
+        width: 100%;
+        background-color: white;
+        color: red;
+        border: 1px solid red;
+      }
+    }
+    .shared-links-empty-state {
+
+    }
+  }
+}
+
+@include phone-screen {
+  .shared-links {
+    .shared-links-container {
+      .shared-link {
+        .img-link-for {
+          width: 100%;
+          align-items: center;
+          .img {
+            width: 3rem;
+            height: 3rem;
+            display: flex;
+            justify-content: center;
+          }
+
+          .link-for {
+            flex-wrap: wrap;
+            max-width: 100%;
+            height: 7rem;
+            .link {
+              color: $color-light-blue;
+              max-width: 75%;
+              white-space: normal;
+              word-wrap: break-word;
+              height: 5rem;
+            }
+            .for {
+              height: 2rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}

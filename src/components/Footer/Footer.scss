@@ -1,0 +1,11 @@
+@import '../../styles/base';
+
+.footer {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  background-color: $color-almost-white;
+  color: $color-light-grey;
+  padding: 10px 0px;
+}

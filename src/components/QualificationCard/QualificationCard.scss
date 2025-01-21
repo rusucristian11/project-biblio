@@ -1,0 +1,113 @@
+@import "../../styles/base";
+
+.qualification-card {
+  .qualification-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 36rem;
+    height: 5rem;
+    padding: 0 1rem;
+    background-color: white;
+    border: 1px solid darkgrey;
+    border-radius: 0.5rem;
+    .qualification-left{
+      display: flex;
+      align-items: center;
+      .q-main {
+        margin-left: 1rem;
+      }
+    }
+    .three-dots-settings {
+      width: 2rem;
+      height: 2rem;
+      cursor: pointer;
+    }
+  }
+  .qualification-second-block {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 0.5rem;
+    width: 36rem;
+    border: 1px solid darkgrey;
+    padding: 1rem;
+    .qualification-module {
+      margin-bottom: 1rem;
+    }
+    .dotted {
+      border: 1px dotted black;
+    }
+    .qualification-date {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+  .manual-handling {
+    height: 45vh;
+    .actions-buttons {
+      width: 80%;
+      margin-top: 3rem;
+      .edit {
+        border: 1px solid blue;
+        margin-bottom: 1rem;
+      }
+      .archive {
+        border: 1px solid blue;
+        color: blue;
+        background-color: white;
+        margin-bottom: 1rem;
+      }
+      .delete {
+        border: 1px solid red;
+        color: red;
+        background-color: white;
+      }
+    }
+  }
+}
+
+@include phone-screen {
+  .qualification-card {
+    .qualification-block {
+      width: 19rem;
+      height: 4.8rem;
+    }
+    .qualification-second-block {
+      width: 19rem;
+    }
+  }
+}
+
+.qualification {
+  display: flex;
+  flex-direction: column;
+  .qualification-title {
+    color: grey;
+    font-size: 1rem;
+  }
+  .qualification-type {
+    font-weight: bold;
+    color: black;
+    font-size: 1.2rem;
+  }
+}
+
+.verified-check {
+  width: 1.75rem;
+  height: 1.75rem;
+}
+
+.module-icon{
+  width: 2rem;
+  height: 2rem;
+  border: 1px solid black;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+
+.module-data {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}

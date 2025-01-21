@@ -1,0 +1,9 @@
+@import "../../styles/base";
+
+.archived-qualifications {
+  background: linear-gradient($color-dark-purple 7.55%, $color-almost-white 7.55%);
+  height: auto;
+  .qualifications {
+    margin-bottom: 4rem;
+  }
+}

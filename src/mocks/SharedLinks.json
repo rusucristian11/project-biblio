@@ -1,0 +1,38 @@
+[
+  {
+    "id": 13,
+    "uuid": "7fcedeb6-c6df-4cde-9ec3-3d762dbcfadc",
+    "shared_user": 16,
+    "recepient_name": "cevaaaa",
+    "recepient_email": "ceva@ceva.com",
+    "url": "https://biblio.nebulalabs.cc/qualifications/shared/7fcedeb6-c6df-4cde-9ec3-3d762dbcfadc/",
+    "deleted": false
+  },
+  {
+    "id": 16,
+    "uuid": "b55f18b0-f928-4815-87e6-145934eabefb",
+    "shared_user": 16,
+    "recepient_name": "Cinevaeste",
+    "recepient_email": "cevadegenul@email.com",
+    "url": "https://biblio.nebulalabs.cc/qualifications/shared/b55f18b0-f928-4815-87e6-145934eabefb/",
+    "deleted": false
+  },
+  {
+    "id": 17,
+    "uuid": "77ea0627-0dfb-4046-942b-4466c3ce989b",
+    "shared_user": 16,
+    "recepient_name": "David",
+    "recepient_email": "gatacuasta@gmail.com",
+    "url": "https://biblio.nebulalabs.cc/qualifications/shared/77ea0627-0dfb-4046-942b-4466c3ce989b/",
+    "deleted": false
+  },
+  {
+    "id": 18,
+    "uuid": "5f4935a9-fd46-43de-b3f5-a9aab16390b7",
+    "shared_user": 16,
+    "recepient_name": "Cristian Rusu",
+    "recepient_email": "cristian@rusu.com",
+    "url": "https://biblio.nebulalabs.cc/qualifications/shared/5f4935a9-fd46-43de-b3f5-a9aab16390b7/",
+    "deleted": false
+  }
+]

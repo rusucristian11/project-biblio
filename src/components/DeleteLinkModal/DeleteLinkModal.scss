@@ -1,0 +1,28 @@
+@import '../../styles/base';
+
+.delete-link {
+  height: 35vh;
+  .modal-header {
+    .title-delete-link {
+      font-size: 1rem;
+    }
+  }
+  .modal-buttons-link {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    .delete-link {
+      background-color: white;
+      color: blue;
+      border: 1px solid blue;
+      margin-top: 0.5rem;
+    }
+  }
+}
+
+@include phone-screen {
+  .delete-link {
+    height: 30vh;
+  }
+}

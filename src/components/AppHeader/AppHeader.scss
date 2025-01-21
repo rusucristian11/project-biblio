@@ -1,0 +1,29 @@
+@import "../../styles/base";
+
+.app-header {
+  height: 5vh;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  max-width: 786px;
+  display: flex;
+  justify-content: space-between;
+  background-color: $color-white;
+  .biblio-logo {
+    width: 85px;
+    height: 85px;
+    margin-left: 4%;
+    cursor: pointer;
+  }
+  .right-part {
+    display: flex;
+    justify-content: space-between;
+    width: 80px;
+    margin-right: 4%;
+    .header-logo {
+      width: 30px;
+      height: 30px;
+      cursor: pointer;
+    }
+  }
+}

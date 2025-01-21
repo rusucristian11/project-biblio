@@ -1,0 +1,26 @@
+[
+  {
+    "id": 16,
+    "user_detail": null,
+    "userpic": "https://biblio-api-01.s3.amazonaws.com/uploads/userpics/326b4fad-0339-40cb-9afc-9c375f04b0ca.jpg",
+    "last_login": "2023-09-15T12:46:35.391360Z",
+    "is_superuser": false,
+    "first_name": "Cristian",
+    "last_name": "Rusu",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-08-11T07:10:58Z",
+    "created_at": "2023-08-11T07:10:58.357000Z",
+    "updated_at": "2023-09-15T12:46:35.391466Z",
+    "deleted": false,
+    "email": "default_user@mail.com",
+    "full_name": "Cristian Rusu",
+    "phone_number": "0712817911",
+    "role": "ceva",
+    "address_line_1": "Ceva 123",
+    "address_line_2": "",
+    "address_line_3": "",
+    "city": "Petrosani",
+    "postcode": "332026"
+  }
+]

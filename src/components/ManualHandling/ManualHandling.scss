@@ -1,0 +1,22 @@
+.manual-handling {
+  height: 20vh;
+  .actions-buttons {
+    width: 80%;
+    margin-top: 3rem;
+    .edit {
+      border: 1px solid #0F52FF;
+      margin-bottom: 1rem;
+    }
+    .archive {
+      border: 1px solid #0F52FF;
+      color: #0F52FF;
+      background-color: white;
+      margin-bottom: 1rem;
+    }
+    .delete {
+      border: 1px solid red;
+      color: red;
+      background-color: white;
+    }
+  }
+}

@@ -1,0 +1,134 @@
+//Colors
+$color-dark-purple: #1E182F;
+$color-light-blue: #0F52FF;
+$color-almost-white: #F3F4F8;
+$color-white: #FFFFFF;
+$color-lighter-grey: #F0F1F3;
+$color-light-grey: #4B5563;
+
+//Sizes
+$size-small: 15px;
+$size-subtitles: 23px;
+
+//Screen sizes
+// Mobile
+$mobile: 320px;
+
+// Tablet
+$tablet: 768px;
+
+// Set the size of the page to be maximum of 786px width
+@media (min-width: $tablet) {
+  #root {
+    max-width: 786px;
+    margin: 0 auto;
+  }
+}
+
+.page-authentication {
+  display: flex;
+  align-items: center;
+}
+
+.page {
+  padding-bottom: 15vh;
+  padding-top: 5vh;
+  display: flex;
+  align-items: center;
+}
+
+.drop-down {
+  width: 99%;
+  height: 41px;
+  margin-bottom: 5px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+  justify-content: center;
+  background-color: $color-lighter-grey;
+}
+
+.date {
+  width: 345%;
+  margin-bottom: 5px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+  height: 35px;
+  justify-content: center;
+  background-color: $color-lighter-grey;
+}
+
+.custom-input {
+  width: 98%;
+  margin-bottom: 5px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+  height: 35px;
+  justify-content: center;
+  background-color: $color-lighter-grey;
+}
+
+.input-title {
+  font-weight: bold;
+  font-size: $size-small;
+  margin-bottom: 5px;
+}
+
+.line {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border: 0.2px solid #D1D5DB;
+  margin-top: $size-small;
+  margin-bottom: $size-small;
+}
+
+.button {
+  width: 100%;
+  background-color: $color-light-blue;
+  color: white;
+  height: 50px;
+  border: 1px solid $color-light-blue;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-size: $size-small;
+  font-weight: 500;
+  cursor: pointer;
+  user-select: none;
+  box-shadow: 0px 0px 8px 0px #00000040;
+  &:hover {
+    background-color: lighten($color-light-blue, 5%);
+  }
+
+  &:focus {
+    box-shadow: 0px 0px 8px 0px #00000040;
+    background-color: darken($color-light-blue, 10%);
+    transition: box-shadow 0.1s cubic-bezier(0.47, 1.62, 0.55, 1.08), background-color 0.1s;
+  }
+
+  &:active {
+    box-shadow: 0px 0px 8px 0px #00000040;
+    background-color: darken($color-light-blue, 15%);
+    transition: box-shadow 0.1s cubic-bezier(0.47, 1.62, 0.55, 1.08), background-color 0.05s;
+  }
+
+}
+
+// Radio-box square
+.check {
+  //box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.33);
+  border: 2px solid #F9FAFB;
+  border-radius: 4px;
+  width: $size-small;
+  height: $size-small;
+  background-color: $color-lighter-grey;
+}
+
+.error-message {
+  color: red;
+}
+
+@mixin phone-screen {
+  @media (min-width: $mobile) and (max-width: #{$tablet - 1}) {
+    @content;
+  }
+}

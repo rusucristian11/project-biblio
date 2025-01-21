@@ -1,0 +1,21 @@
+.custom-stepper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  margin-top: 2rem;
+  height: auto;
+}
+
+.qonto-step-connector {
+  display: none;
+}
+
+.qonto-step-icon {
+  display: none;
+}
+
+.qonto-step-label {
+  color: #007bff;
+  font-weight: bold;
+}

@@ -1,0 +1,124 @@
+@import "../../styles/base";
+
+.settings {
+  width: 100%;
+  height: 80vh;
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: $color-almost-white;
+
+  .page-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 75%;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  .view-account-block {
+    width: 38rem;
+    height: 30%;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+
+    .profile-picture {
+      width: 6rem;
+      height: 6rem;
+      border-radius: 50%;
+    }
+
+    .profile-name {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+  }
+
+  .settings-menu {
+    display: flex;
+    width: 80%;
+    height: 55%;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+
+    .menu {
+      display: flex;
+      flex-direction: column;
+      width: 18.5rem;
+      height: 10rem;
+      border: 1px solid black;
+      border-radius: 10px;
+      background-color: white;
+      justify-content: space-between;
+      cursor: pointer;
+      text-decoration: none;
+      color: black;
+
+      .img {
+        width: 3rem;
+        height: 3rem;
+        margin-left: 1.25rem;
+        margin-top: 1.25rem;
+      }
+
+      .block-title {
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-left: 20px;
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+  }
+}
+
+@include phone-screen {
+  .settings {
+    width: 100%;
+    height: 80vh;
+    padding-top: 2rem;
+    .page-title {
+      display: flex;
+      flex-direction: column;
+      justify-content: left;
+      align-items: flex-start;
+      margin-top: 3rem;
+      margin-bottom: 2rem;
+      width: 85%;
+    }
+    .view-account-block {
+      width: 21rem;
+      height: 11rem;
+
+      .profile-picture {
+        height: 6.5rem;
+        width: 6.5rem;
+      }
+    }
+
+    .settings-menu {
+      width: 90%;
+
+      .menu {
+        width: 10rem;
+        height: 10rem;
+      }
+    }
+  }
+}

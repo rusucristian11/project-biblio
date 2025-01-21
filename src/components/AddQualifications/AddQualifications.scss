@@ -1,0 +1,9 @@
+@import "../../styles/base";
+
+.add-qualifications {
+  width: 100%;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  background-color: $color-almost-white;
+}

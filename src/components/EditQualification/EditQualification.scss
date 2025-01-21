@@ -1,0 +1,72 @@
+@import '../../styles/base';
+
+.edit-qualification {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient($color-dark-purple 28%, $color-almost-white 28%);
+  padding-bottom: 15vh;
+  .top-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    width: 75%;
+    margin-top: 2rem;
+
+    .back-settings {
+      display: flex;
+      align-items: center;
+      .back-button {
+        width: 2rem;
+        height: 2rem;
+        filter: invert(1);
+      }
+      .back {
+        margin-left: 0.5rem;
+        color: white;
+        text-decoration: none;
+      }
+    }
+  }
+  .qualification-edit {
+    font-size: 2.5rem;
+    margin-bottom: 2.5rem;
+    margin-top: 1rem;
+    filter: invert(1);
+    font-weight: bold;
+  }
+  .edit-qualification-form {
+    padding: 1.5rem 0.6rem;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: $color-white;
+    border-radius: 5px;
+
+    .form-title {
+      font-size: 2rem;
+      font-weight: bold;
+      margin-bottom: 1rem;
+    }
+  }
+    .edit-qualification-update {
+      margin-top: 2rem;
+      display: flex;
+      flex-direction: column;
+      width: 73%;
+      justify-content: center;
+      align-items: center;
+    }
+}
+
+@include phone-screen {
+  .edit-qualification-form {
+    .date {
+      width: 170%;
+    }
+  }
+}
+

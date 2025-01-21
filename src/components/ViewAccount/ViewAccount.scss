@@ -1,0 +1,113 @@
+@import '../../styles/base';
+
+.view-account {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient($color-dark-purple 18%, $color-almost-white 18%);
+  padding-bottom: 15vh;
+  .top-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    width: 75%;
+    margin-top: 2rem;
+
+    .back-settings {
+      display: flex;
+      align-items: center;
+      .back-button {
+        width: 2rem;
+        height: 2rem;
+        filter: invert(1);
+      }
+      .back {
+        margin-left: 0.5rem;
+        color: white;
+        text-decoration: none;
+      }
+    }
+  }
+  .your-account {
+    font-size: 2.5rem;
+    margin-bottom: 2.5rem;
+    margin-top: 1rem;
+    filter: invert(1);
+    font-weight: bold;
+  }
+  .view-account-form {
+    padding: 1.5rem 0.6rem;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: $color-white;
+    border-radius: 5px;
+    .form-title {
+      font-size: 2rem;
+      font-weight: bold;
+      margin-bottom: 1rem;
+    }
+    .personal-details {
+      width: 100%;
+      .first-form-subtitle {
+        font-size: $size-subtitles;
+        font-weight: bold;
+        margin-bottom: $size-small;
+      }
+      .profile-picture {
+        width: 5.5rem;
+        height: 5.5rem;
+        border: 1px solid black;
+        border-radius: 50%;
+      }
+      .update-profile-picture {
+        font-weight: bold;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+      }
+    }
+    .password-part {
+      width: 100%;
+      .password-title {
+        font-size: $size-subtitles;
+        font-weight: bold;
+        margin-bottom: 1rem;
+      }
+      .update-password {
+        margin-top: 1rem;
+        font-weight: bold;
+      }
+    }
+    .your-address {
+      width: 100%;
+      .second-form-subtitle {
+        font-size: $size-subtitles;
+        font-weight: bold;
+        margin-bottom: $size-small;
+      }
+    }
+    .terms-conditions {
+      width: 100%;
+      .third-form-subtitle {
+        font-size: $size-subtitles;
+        font-weight: bold;
+        margin-bottom: $size-small;
+      }
+      .radio-button-accept {
+        display: flex;
+        flex-direction: row;
+      }
+    }
+    .register-login {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
+

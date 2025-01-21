@@ -1,0 +1,96 @@
+@import '../../styles/base';
+
+.qualification-final-step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: auto;
+
+  .qualification-step {
+    color: $color-light-blue;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+  }
+
+  .final-step-title {
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  .final-step-subtitle {
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: grey;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+
+  .final-step-form {
+    padding: 1.5rem 0.6rem;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: $color-white;
+    border-radius: 5px;
+
+    .date-with-icon {
+      display: flex;
+      flex-direction: row-reverse;
+      position: relative;
+      width: 100%;
+      .datePicker,
+      .datePicker > div {
+        width: 100%;
+        > input[type="text"] {
+          width: 98%;
+          z-index: 990;
+          margin-bottom: 5px;
+          border: 1px solid lightgrey;
+          border-radius: 3px;
+          height: 35px;
+          justify-content: center;
+          background-color: $color-lighter-grey;
+          margin-right: 10px;
+        }
+      }
+
+      .calendar-icon {
+        height: 1rem;
+        width: 1rem;
+        position: absolute;
+        top: 45%;
+        margin-right: 1rem;
+        transform: translateY(-50%);
+        cursor: pointer;
+      }
+    }
+
+    .form-title {
+      font-size: 2rem;
+      font-weight: bold;
+      margin-bottom: 1rem;
+    }
+  }
+
+  .final-step-buttons {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    width: 73%;
+    justify-content: center;
+    align-items: center;
+
+    .final-step-previous {
+      cursor: pointer;
+      text-decoration: underline;
+      color: black;
+    }
+  }
+}
+
+
