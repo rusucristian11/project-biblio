@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Front-End Biblio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+I added in the folder named design how the app looks
 
 ## Available Scripts
 
