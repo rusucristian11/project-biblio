@@ -1,5 +1,7 @@
 # Front-End Biblio
 
+I added in the folder named design how the app looks
+
 ## Available Scripts
 
 In the project directory, you can run:
